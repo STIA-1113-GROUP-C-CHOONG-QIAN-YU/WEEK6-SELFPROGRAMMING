@@ -1,0 +1,38 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Count2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	double x,y,z;
+	
+	Scanner scan =new Scanner (System.in);
+	
+	System.out.println("Enter value of x :");
+	x = scan.nextDouble();
+	
+	System.out.println("Enter value of y :");
+	y = scan.nextDouble();
+	
+	System.out.println("Enter value of z :");
+	z = scan.nextDouble();
+	
+	if (y!=x)
+		System.out.println("Result : y not equal x");
+	
+	if (y==z)
+		System.out.println("Result : y equal z");
+	
+	if (x>y)
+		System.out.println("Result : x greater than y");
+	
+	if (y<x)
+		System.out.println("value x" + x +"value y" + y);
+		System.out.println("Result : y is less than x");
+		
+	}
+
+}
