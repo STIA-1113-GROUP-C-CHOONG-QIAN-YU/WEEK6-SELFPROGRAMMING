@@ -1,0 +1,25 @@
+package selfProgramming;
+
+public class ReturnTrue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//Given the year, month(1-12) and day (1-31), write a boolean expression which return true for dates before October 15,1582
+	int year=1580;
+	int month=8;
+	int day=10;
+		System.out.println((year<=1582) && ((month>=1)||(month<=12)) && (day>=1)||(day<=12));
+		
+// another example from dr.
+		double d1 = 2.2 + 4.4;
+		double d2 = 6.6;
+		int d3 = 2 + 4;
+		int d4 = 6;
+		System.out.println(d1==d2); // false because double got many dp behind
+		System.out.println(d3==d4);
+		String s1 = "Azman";
+		String s2 = "man";
+		System.out.println(s1==s2);
+	}
+
+}
