@@ -22,17 +22,17 @@ public class IfElseExercise {
 			System.out.println("You pass both subjects");
 		}
 		
-		if ((marksA>=50) && (marksB<=50))
+		if ((marksA>=50) && (marksB<50))
 		{
 			System.out.println("You pass Mathematics but fail Science");
 		}
 		
-		if ((marksA<=50) && (marksB>=50))
+		if ((marksA<50) && (marksB>=50))
 		{
 			System.out.println("You pass Science but fail Mathematics");
 		}
 		
-		else if ((marksA<=50) && (marksB<=50))
+		else if ((marksA<50) && (marksB<50))
 		{
 			System.out.println("You fail both subjects");
 		}
@@ -69,3 +69,4 @@ public class IfElseExercise {
 	}
 
 }
+
